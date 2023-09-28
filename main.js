@@ -1,4 +1,26 @@
+function uploadCsv() {
+    const inpObj = document.getElementById("my-csv");
+    const file = inpObj.files[0];
+    // console.log(file);
+    // const reader = new FileReader();
 
+    // reader.onload = function(inpObj) {
+    //     const content = inpObj.target.result;
+    //     const rows = content.split('\n');
+
+    //     const csvData = [];
+    //     rows.forEach(function(row) {
+    //         const cells = row.split(',');
+    //         csvData.push(cells);
+    //     });
+
+    //     console.log(csvData);
+    // };
+
+    // reader.readAsText(file);
+};
+
+/*
 document.getElementById('csvForm').addEventListener('submit',
     function (event) {
         event.preventDefault();
@@ -21,4 +43,4 @@ document.getElementById('csvForm').addEventListener('submit',
 
 
     })
-    
+    */

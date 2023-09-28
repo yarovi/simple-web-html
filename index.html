@@ -15,14 +15,14 @@
         <header>
           <h2>Subir Archivos</h2>
         </header>
-        <form id="csvForm" method="post" >
-          <input type="file" name="archivo" accept=".csv" >
+       
+          <input id="my-csv" type="file" name="archivo" accept=".csv" >
           <br >
           <br >
-          <input type="submit" value="Procesar" >
+          <input onclick="uploadCsv" type="button" value="Procesar" >
         </form>
         <br >
-        <input type="button" value="limpiar" >
+        <input  onclick="CleanControl" type="button" value="limpiar" >
       </section>
     </article>
     <article>
